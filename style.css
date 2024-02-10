@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    
+}
+.container
+{
+    padding: 15px;
+    
+}
+.div-container{
+    background-color: rgb(103, 37, 190);
+    color: white;
+    padding: 15px;
+    width: 25%;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.div-container h2{
+    color: brown;
+    
+}
+.div-container button{
+    background-color: brown;
+    color: black;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+}
+.add-button{
+    background-color: brown;
+    color: white;
+    border-radius: 100%;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pop-overlay{
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.pop-box{
+    background-color: brown;
+    width: 40%;
+    
+    border-radius: 10px;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+    z-index: 2;
+    padding: 40px;
+    display: none;
+}
+.pop-box input{
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.pop-box textarea{
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.pop-box input::placeholder{
+    color: black;
+}
+.pop-box textarea::placeholder{
+    color: black;
+}
+.pop-box button{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+.pop-box input:focus{
+    outline: none;
+}
+.pop-box textarea:focus{
+    outline: none;
+}
